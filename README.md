@@ -8,8 +8,8 @@
 
 <div align="center">
 
-<!-- ░░ HERO — custom painted masthead, title baked into the artwork (true background version) ░░ -->
-<img width="100%" src="./assets/hero-v2.png" alt="cornna — AI-Native Developer · Vibe Coder · Agent Builder" />
+<!-- ░░ HERO — custom-painted masthead: one golden thread directs a constellation of ideas ░░ -->
+<img width="100%" src="./assets/hero-v3.png" alt="cornna — AI-Native Developer · Vibe Coder · Agent Builder" />
 
 </div>
 
@@ -39,8 +39,8 @@ handle:      sweetcornna  ·  github.com/sweetcornna
 title:       AI-Native Developer / Vibe Coder
 languages:   [Python, TypeScript, C, Go, Shell]
 domains:
-  - Educational automation     # chaoxing / zhihuishu toolkit
   - AI agents & assistants     # corlinman
+  - Agent infrastructure       # Dormice · 5 upstream PRs merged
   - MCP ecosystem              # free-search-mcp, coin-mcp
   - Network & infrastructure   # OpenWrt plugins, clash, drcom
 strengths:
@@ -79,13 +79,13 @@ graph LR
     V((Vibe<br/>Coding)):::core
     V --> A[AI Agents]:::node
     V --> M[MCP Servers]:::node
-    V --> R[Edu Automation]:::node
+    V --> I[Agent Infrastructure]:::node
     A --> P1[corlinman]:::leaf
     A --> P2[copy-trader]:::leaf
     M --> P3[free-search-mcp]:::leaf
     M --> P4[coin-mcp]:::leaf
-    R --> P5[university-helper]:::leaf
-    R --> P6[chaoxing-*]:::leaf
+    I --> P5[Dormice]:::leaf
+    I --> P6[Open-source fixes]:::leaf
     V --> L[LLM Learning]:::node
     L --> P7[lingma]:::leaf
     L --> P8[mathodology]:::leaf
@@ -140,17 +140,17 @@ graph LR
 
 <td width="50%" valign="top">
 
-<a href="https://github.com/sweetcornna/university-helper">
-  <img width="100%" src="./assets/projects/university-helper.png" alt="university-helper — campus dataflow" />
+<a href="https://github.com/BitMiracle-AI/Dormice">
+  <img width="100%" src="./assets/projects/dormice.png" alt="Dormice — a persistent agent sandbox sleeping between four lifecycle chambers" />
 </a>
 
-#### `02` &nbsp; university-helper&nbsp;·&nbsp;Campus Automation Hub
+#### `02` &nbsp; Dormice&nbsp;·&nbsp;Persistent Agent Sandboxes
 
-One-stop integration of **Zhihuishu · Chaoxing · check-in**, **one-click Docker deploy** — tasks keep running server-side after you close the tab.
+The **SQLite of agent sandboxes** — self-hosted and E2B-compatible, with persistent sandboxes that cool from active to frozen, stopped, and optionally S3-archived. **5 PRs merged upstream** across real-host installation, firewall/sysctl safety, doctor verification, and operator docs.
 
-<sub>*Campus automation hub — Python · FastAPI · Docker — 2026*</sub>
+<sub>*Agent sandboxes — TypeScript · Docker · gVisor · SQLite · E2B — 5 PRs merged — 2026*</sub>
 
-<a href="https://github.com/sweetcornna/university-helper">Enter the repo →</a>
+<a href="https://github.com/BitMiracle-AI/Dormice">Enter the repo →</a>
 
 </td>
 

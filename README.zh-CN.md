@@ -8,8 +8,8 @@
 
 <div align="center">
 
-<!-- ░░ HERO — custom painted masthead, title baked into the artwork (true background version) ░░ -->
-<img width="100%" src="./assets/hero-v2.png" alt="cornna — AI-Native Developer · Vibe Coder · Agent Builder" />
+<!-- ░░ HERO — custom-painted masthead: one golden thread directs a constellation of ideas ░░ -->
+<img width="100%" src="./assets/hero-v3.png" alt="cornna — AI-Native Developer · Vibe Coder · Agent Builder" />
 
 </div>
 
@@ -39,8 +39,8 @@ handle:      sweetcornna  ·  github.com/sweetcornna
 title:       AI-Native Developer / Vibe Coder
 languages:   [Python, TypeScript, C, Go, Shell]
 domains:
-  - Educational automation     # chaoxing / zhihuishu 全家桶
   - AI agents & assistants     # corlinman, copy-trader
+  - Agent infrastructure       # Dormice · 5 upstream PRs merged
   - MCP ecosystem              # free-search-mcp, coin-mcp
   - Network & infrastructure   # OpenWrt plugins, clash, drcom
 strengths:
@@ -79,13 +79,13 @@ graph LR
     V((Vibe<br/>Coding)):::core
     V --> A[AI Agents]:::node
     V --> M[MCP Servers]:::node
-    V --> R[Edu Automation]:::node
+    V --> I[Agent Infrastructure]:::node
     A --> P1[corlinman]:::leaf
     A --> P2[copy-trader]:::leaf
     M --> P3[free-search-mcp]:::leaf
     M --> P4[coin-mcp]:::leaf
-    R --> P5[university-helper]:::leaf
-    R --> P6[chaoxing-*]:::leaf
+    I --> P5[Dormice]:::leaf
+    I --> P6[Open-source fixes]:::leaf
     V --> L[LLM Learning]:::node
     L --> P7[lingma]:::leaf
     L --> P8[mathodology]:::leaf
@@ -140,17 +140,17 @@ graph LR
 
 <td width="50%" valign="top">
 
-<a href="https://github.com/sweetcornna/university-helper">
-  <img width="100%" src="./assets/projects/university-helper.png" alt="university-helper — campus dataflow" />
+<a href="https://github.com/BitMiracle-AI/Dormice">
+  <img width="100%" src="./assets/projects/dormice.png" alt="Dormice — 在四重生命周期之间沉睡的持久 Agent 沙箱" />
 </a>
 
-#### `02` &nbsp; university-helper&nbsp;·&nbsp;校园自动化中枢
+#### `02` &nbsp; Dormice&nbsp;·&nbsp;持久化 Agent 沙箱
 
-一站式打通 **智慧树 · 学习通 · 签到**，**Docker 一键部署**，关掉网页后端照跑。
+**Agent 沙箱界的 SQLite**——自托管、兼容 E2B；永久沙箱闲置时从 active 冷却到 frozen、stopped，并可选归档到 S3。已有 **5 个 PR 被上游合并**，覆盖真实主机安装、firewall/sysctl 安全、doctor 校验与运维文档。
 
-<sub>*Campus automation hub — Python · FastAPI · Docker — 2026*</sub>
+<sub>*Agent sandboxes — TypeScript · Docker · gVisor · SQLite · E2B — 5 PRs merged — 2026*</sub>
 
-<a href="https://github.com/sweetcornna/university-helper">Enter the repo →</a>
+<a href="https://github.com/BitMiracle-AI/Dormice">Enter the repo →</a>
 
 </td>
 
